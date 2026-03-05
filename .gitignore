@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Linting / Type checking / Testing
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Databases (local)
+*.db
+*.sqlite3
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Docker
+docker-compose.override.yml
+
+# Claude Code
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
