@@ -1,6 +1,6 @@
-# example_API-FastAPI-PostgreSQL.auth-jwt-template
+# fastapi-auth-service
 
-Production-ready FastAPI + PostgreSQL API template with JWT auth, rate limiting, CORS, security headers and uniform response contract.
+Servicio de autenticación que armé para tener listo un módulo de JWT auth reutilizable cada vez que arranco un proyecto en FastAPI: login, refresh tokens, guards por rol, rate limiting y headers de seguridad ya resueltos, para no reescribir esto de cero en cada backend nuevo. Es la base que uso mientras profundizo en Python después de años trabajando principalmente en JS/TS.
 
 ## Setup
 
